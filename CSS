@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: helvetica;
+  background-color: lightblue;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: royalblue;
+  text-align: center;
+  color: white;
+}
+
+tr {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: gainsboro;
+}
+
+h2 {
+  color: green;
+}
+
+.code {
+  font-family: monospace;
+  background-color: yellow;
